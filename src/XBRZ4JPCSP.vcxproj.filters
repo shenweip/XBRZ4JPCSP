@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\xbrz">
+      <UniqueIdentifier>{285794f6-2366-482e-b859-e53f73f47df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\XBRZNative">
+      <UniqueIdentifier>{e46b6648-5d52-4b99-8852-e24fb93ed3ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scaler">
+      <UniqueIdentifier>{7e2280cc-fd96-4c34-b313-ad653730ef84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Common">
+      <UniqueIdentifier>{8a7f8f47-0389-4810-893c-158bcedc91a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Common\util">
+      <UniqueIdentifier>{27de8eeb-9e4e-49bb-92b1-efd0a5ac6a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Common\type">
+      <UniqueIdentifier>{9025895a-dbef-4549-b75a-53a47b63ebd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="xbrz\config.h">
+      <Filter>src\xbrz</Filter>
+    </ClInclude>
+    <ClInclude Include="xbrz\xbrz.h">
+      <Filter>src\xbrz</Filter>
+    </ClInclude>
+    <ClInclude Include="XBRZNative\XBRZNative.h">
+      <Filter>src\XBRZNative</Filter>
+    </ClInclude>
+    <ClInclude Include="Scaler\TextureScaler.h">
+      <Filter>src\Scaler</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Type\CommonType.h">
+      <Filter>src\Common\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\util\util.h">
+      <Filter>src\Common\util</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\util\MemoryUtil.h">
+      <Filter>src\Common\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="xbrz\xbrz.cpp">
+      <Filter>src\xbrz</Filter>
+    </ClCompile>
+    <ClCompile Include="XBRZNative\XBRZNative.cpp">
+      <Filter>src\XBRZNative</Filter>
+    </ClCompile>
+    <ClCompile Include="Scaler\TextureScaler.cpp">
+      <Filter>src\Scaler</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\util\MemoryUtil.cpp">
+      <Filter>src\Common\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
